@@ -29,14 +29,10 @@
 	"use strict";
 
 	// Define as an AMD module if possible
-	if ( typeof define === 'function' && define.amd )
-	{
-		define( ['jquery'], factory );
-	}
 	/* Define using browser globals otherwise
 	 * Prevent multiple instantiations if the script is loaded twice
 	 */
-	else if ( jQuery && !jQuery.fn.dataTable )
+	if ( jQuery && !jQuery.fn.dataTable )
 	{
 		factory( jQuery );
 	}
