@@ -28,9 +28,7 @@
     } else if (typeof define === "function" && define.amd) {
         define(function(){return factory}); // AMD
     }
-}(this, (function () {
-
-(/** @lends <global> */function( window, document, undefined ) {
+}(this, (/** @lends <global> */function( window, document, undefined ) {
 
 (function( factory ) {
 	"use strict";
@@ -13224,5 +13222,4 @@
 	 */
 }));
 
-}(window, document));
-}())));
+}(window, document))));
