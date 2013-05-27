@@ -13222,4 +13222,6 @@
 	 */
 }));
 
+return $;
+
 }(window, document))));
